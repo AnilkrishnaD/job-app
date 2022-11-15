@@ -1,0 +1,31 @@
+.logo {
+  height: 30px;
+  width: 200px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #202020;
+  min-height: 40px;
+}
+
+.home-job-container {
+  display: flex;
+}
+
+.list-item {
+  list-style: none;
+  color: white;
+  margin: 10px;
+}
+
+.button {
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+}
+
+.link-item {
+  color: #ffffff;
+}
