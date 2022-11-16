@@ -1,0 +1,38 @@
+.profile-view {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  min-height: 200px;
+  min-width: 300px;
+  max-width: 400px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.loader-container {
+  min-height: 200px;
+  min-width: 280px;
+  max-width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.retry-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+  min-width: 300px;
+  max-width: 340px;
+}
+
+.retry-button {
+  color: white;
+  background-color: blue;
+  border: 2px solid red;
+  min-height: 35px;
+  min-width: 75px;
+}

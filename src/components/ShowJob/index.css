@@ -1,0 +1,53 @@
+.list-item {
+  list-style: none;
+}
+
+.logo-title-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  height: 36px;
+  width: 38px;
+  margin-right: 30px;
+}
+
+.job-item {
+  min-height: 200px;
+  min-width: 560px;
+  background-color: #7e858e;
+  padding: 10px;
+  margin: 12px;
+  border-radius: 10px;
+}
+
+.heading {
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+}
+
+.rating-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.star {
+  color: red;
+}
+
+.link-item {
+  text-decoration: none;
+}
+
+.location-package-container {
+  display: flex;
+  justify-content: space-around;
+}
