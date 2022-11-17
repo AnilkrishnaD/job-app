@@ -73,10 +73,13 @@
 }
 
 .input-container {
-  display: flex;
-  flex-direction: column;
   margin-top: 20px;
   width: 100%;
+}
+
+.username-container {
+  display: flex;
+  flex-direction: column;
 }
 
 .input-label {

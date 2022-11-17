@@ -1,7 +1,7 @@
 import {Link} from 'react-router-dom'
 import {GoLocation} from 'react-icons/go'
 import {GiFlowerStar} from 'react-icons/gi'
-import {MdOutlineWorkOutline} from 'react-icons/md'
+// import {MdOutlineWorkOutline} from 'react-icons/md'
 
 import './index.css'
 

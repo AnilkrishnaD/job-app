@@ -1,0 +1,54 @@
+.title {
+  color: white;
+  font-size: 20px;
+}
+
+.job-container {
+  background-color: #7e858e;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.description-link-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill {
+  display: flex;
+  margin: 10px;
+  min-width: 180px;
+}
+
+.skill-img {
+  height: 30px;
+  width: 40px;
+  margin-top: 20px;
+}
+
+.skill-name {
+  color: white;
+  font-size: 20px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.life-company-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.life-description {
+  color: white;
+  max-width: 500px;
+}
+
+.life-img {
+  height: 200px;
+  border-radius: 12px;
+  width: 400px;
+}

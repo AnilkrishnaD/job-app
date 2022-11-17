@@ -11,7 +11,7 @@ const apiProfileConstants = {
   initial: 'INITIAL',
 }
 class UserDetails extends Component {
-  state = {profileStatus: apiProfileConstants.isLoading, profileDetails: []}
+  state = {profileStatus: apiProfileConstants.initial, profileDetails: []}
 
   componentDidMount() {
     this.getProfile()
@@ -84,6 +84,7 @@ class UserDetails extends Component {
 
   renderProfileDetails = () => {
     const {profileStatus} = this.state
+    console.log(profileStatus)
 
     switch (profileStatus) {
       case apiProfileConstants.successful:

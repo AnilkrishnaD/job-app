@@ -1,0 +1,51 @@
+.heading-success {
+  color: blue;
+}
+
+.app-container {
+  min-height: 100vh;
+  background-color: black;
+}
+
+.fail-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  min-width: 480px;
+  margin-left: 30px;
+}
+
+.failure-heading {
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
+
+.failure-description {
+  font-size: 14px;
+  color: white;
+}
+
+.retry-button {
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.loader-container {
+  min-height: 480px;
+  min-width: 680px;
+  max-width: 750px;
+  margin-left: 70px;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.similar-jobs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

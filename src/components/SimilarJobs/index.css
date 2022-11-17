@@ -1,0 +1,18 @@
+.similar-job-card {
+  background-color: #7e858e;
+  border-radius: 12px;
+  padding: 13px;
+  margin: 8px;
+  max-width: 300px;
+  list-style: none;
+}
+
+.emp-type {
+  margin: 10px;
+  color: white;
+}
+
+.location {
+  color: white;
+  font-size: 14px;
+}

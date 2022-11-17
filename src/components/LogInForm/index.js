@@ -56,7 +56,7 @@ class LogInForm extends Component {
     const {password} = this.state
 
     return (
-      <>
+      <div className="username-container">
         <label className="input-label" htmlFor="password">
           PASSWORD
         </label>
@@ -68,7 +68,7 @@ class LogInForm extends Component {
           onChange={this.onChangePassword}
           placeholder="Password"
         />
-      </>
+      </div>
     )
   }
 
@@ -76,7 +76,7 @@ class LogInForm extends Component {
     const {username} = this.state
 
     return (
-      <>
+      <div className="username-container">
         <label className="input-label" htmlFor="username">
           USERNAME
         </label>
@@ -88,7 +88,7 @@ class LogInForm extends Component {
           onChange={this.onChangeUsername}
           placeholder="Username"
         />
-      </>
+      </div>
     )
   }
 
