@@ -143,7 +143,11 @@ class Jobs extends Component {
           placeholder="Search"
           className="input-element"
         />
-        <button type="button" onClick={this.onUpdateSearch}>
+        <button
+          testid="searchButton"
+          type="button"
+          onClick={this.onUpdateSearch}
+        >
           <BsSearch className="search-icon" />
         </button>
       </div>
@@ -198,7 +202,7 @@ class Jobs extends Component {
       />
       <h1 className="failure-heading">Oops! Something Went Wrong</h1>
       <p className="failure-description">
-        We cannot seen the page what you are looking for.
+        We cannot seem to find the page you are looking for
       </p>
       <button type="button" onClick={this.onRetry} className="retry-button">
         Retry
